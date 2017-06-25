@@ -22,4 +22,5 @@ $(document).ready(function(){
      	cancelPopUp.click(function(){
          	popUp.slideUp(500)
      	})
+     	
 })
