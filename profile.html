@@ -2,36 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Login | Instaclone</title>
+        <title>Profile | Instaclone</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    	<nav class="navigation">
-    		<a href="feed.html">
-    			<img
-    				src="images/navLogo.png"
-    				alt="logo"
-    				title="logo"
-    				class="navigation__logo"
-    			/>
-    		</a>
-    		<div class="navigation__search-container">
-    			<i class="fa fa-search"></i>
-    			<input type="text" placeholder="Search">
-    		</div>
-    		<div class="navigation__icons">
-    			<a href="explore.html" class="navigation__link">
-    				<i class="fa fa-compass"></i>
-    			</a>
-    			<a href="#" class="navigation__link">
-    				<i class="fa fa_heart-o"></i>
-    			</a>
-    			<a href="profile.html" class="navigation__link">
-    				<i class="fa fa-user-o"></i>
-    			</a>
-    		</div>
-    	</nav>
-    	<main class="profile-container">
+        <nav class="navigation">
+            <a href="feed.html">
+                <img 
+                    src="images/navLogo.png"
+                    alt="logo"
+                    title="logo"
+                    class="navigation__logo"
+                />
+            </a>
+            <div class="navigation__search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navigation__icons">
+                <a href="explore.html" class="navigation__link">
+                    <i class="fa fa-compass"></i>
+                </a>
+                <a href="#" class="navigation__link">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+                <a href="profile.html" class="navigation__link">
+                    <i class="fa fa-user-o"></i>
+                </a>
+            </div>
+        </nav>
+        <main class="profile-container">
             <section class="profile">
                 <header class="profile__header">
                     <div class="profile__avatar-container">
@@ -42,53 +44,90 @@
                     </div>
                     <div class="profile__info">
                         <div class="profile__name">
-
+                            <h1 class="profile__title">Shin Chang sik</h1>
+                            <a href="edit-profile.html" class="profile__button u-fat-text">Edit profile</a>
+                            <i class="fa fa-cog fa-lg"></i>
                         </div>
                         <ul class="profile__numbers">
-
+                            <li class="profile__posts">
+                                <span class="profile__number u-fat-text">10</span> posts
+                            </li>
+                            <li class="profile__followers">
+                                <span class="profile__number u-fat-text">40</span> followers
+                            </li>
+                            <li class="profile__following">
+                                <span class="profile__number">134</span> following
+                            </li>
                         </ul>
                         <div class="profile__bio">
-                            <span class="profile__full name">Shin chang sik</span>
-                            <p class="profile__full-bio">1986년 대구에서 태어났어요. 와우. wow blah blah
-                            <a href="http://google.com" class="profile__link">http://google.com</a>
+                            <span class="profile__full-name u-fat-text">신창식</span>
+                            <p class="profile__full-bio">사이트를 만들어보았어요 </p>
+                            <a href="http://google.co.kr" class="profile__link u-fat-text">google.com</a>
                         </div>
                     </div>
                 </header>
-                <div class="profile__picture">
-                    <a class="profile-picture">
+                <div class="profile__pictures">
+                    <a href="image-detail.html" class="profile-picture">
                         <img
                             src="images/feedPhoto.jpg"
                             class="profile-picture__picture"
                         />
                         <div class="profile-picture__overlay">
                             <span class="profile-picture__number">
- +                              <i class="fa fa-heart"></i>880
- +                          </span>
- +                          <span class="profile-picture__number">
-                                <i class="fa fa-comment"></i>56
+                                <i class="fa fa-heart"></i> 450
+                            </span>
+                            <span class="profile-picture__number">
+                                <i class="fa fa-comment"></i> 39
                             </span>
                         </div>
- +                  </a>
- +              </div>
-                
- +          </section>
-    	</main>
+                    </a>
+                       <a href="image-detail.html" class="profile-picture">
+                         <img
+                            src="images/feedPhoto.jpg"
+                             class="profile-picture__picture"
+                         />
+                         <div class="profile-picture__overlay">
+                             <span class="profile-picture__number">
+                                 <i class="fa fa-heart"></i> 450
+                             </span>
+                             <span class="profile-picture__number">
+                                 <i class="fa fa-comment"></i> 39
+                             </span>
+                         </div>
+                     </a>
+                     <a href="image-detail.html" class="profile-picture">
+                         <img
+                             src="images/feedPhoto.jpg"
+                             class="profile-picture__picture"
+                         />
+                         <div class="profile-picture__overlay">
+                             <span class="profile-picture__number">
+                                 <i class="fa fa-heart"></i> 450
+                             </span>
+                             <span class="profile-picture__number">
+                                 <i class="fa fa-comment"></i> 39
+                             </span>
+                         </div>
+                     </a>
+                </div>
+            </section>
+        </main>
         <footer class="footer">
-        	<nav class="footer__nav">
-        		<ul class="footer__list">
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>ABOUT US</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>SUPPORT</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>BLOG</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>PRESS</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>API</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>JOBS</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>PRIVACY</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>TERMS</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>DIRECTORY</li>
-        			<li class="footer__list-item"><a href="#" class="footer__link"></a>LANGUAGE</li>
-        		</ul>
-        	</nav>
-        	<span class="footer__copyright">© 2017 INSTAGRAM</span>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">about us</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">support</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">blog</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">press</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">api</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">jobs</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">privacy</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">terms</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">directory</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">language</a></li>
+                </ul>
+            </nav>
+            <span class="footer__copyright">© 2017 instagram</span>
         </footer>
     </body>
 </html>
